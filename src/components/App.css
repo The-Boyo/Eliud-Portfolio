@@ -3,3 +3,164 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(13, 32, 75);
+}
+
+.all {
+  height: 100%;
+  width: 100%;
+  min-width: min-content;
+  min-height: min-content;
+}
+
+.back {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: rgb(19, 214, 214);
+  box-shadow: 0 0 0 1px;
+  position: fixed;
+  z-index: -1;
+}
+
+.one {
+  top: 9%;
+  left: 12%;
+  animation: back 7s infinite;
+}
+
+.two {
+  top: 13%;
+  right: 7%; 
+  animation: back 12s infinite;
+}
+
+.three {
+  top: 55%;
+  right: 30%; 
+  animation: back 5s infinite;
+}
+
+.four {
+  top: 40%;
+  right: 20%; 
+  animation: back 3s infinite;
+}
+
+.five {
+  top: 24%;
+  left: 30%; 
+  animation: back 5s infinite;
+}
+
+.six {
+  bottom: 15%;
+  left: 22%;
+  animation: back 5s infinite;
+}
+
+.seven {
+  bottom: 30%;
+  right: 5%;
+  animation: back 8s infinite;
+}
+
+.eight {
+  bottom: 5%;
+  left: 50%;
+  animation: back 8s infinite;
+}
+
+.nine {
+  top: 20%;
+  left: 52%;
+  animation: back 5s infinite;
+}
+
+.ten {
+  top: 50%;
+  left: 10%;
+  animation: back 7s infinite;
+}
+
+.eleven {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  animation: back 9s infinite;
+}
+
+.twelve {
+  bottom: 30%;
+  left: 40%;
+  animation: back 4s infinite;
+}
+
+.thirteen {
+  top: 30%;
+  left: 5%;
+  animation: back 4s infinite;
+}
+
+.fourteen {
+  bottom: 10%;
+  right: 10%;
+  animation: back 4s infinite;
+}
+
+.fifteen {
+  bottom: 5%;
+  left: 5%;
+  animation: back 8s infinite;
+}
+
+.sixteen {
+  left: 15%;
+  bottom: 30%;
+  animation: back 6s infinite;
+}
+
+.seventeen {
+  top: 46%;
+  left: 32%;
+  animation: back 9s infinite;
+} 
+
+.eighteen {
+  top: 25%;
+  right: 30%;
+  animation: back 3s infinite;
+}
+
+.nineteen {
+  bottom: 4%;
+  right: 25%;
+  animation: back 7s infinite;
+}
+
+.twenty {
+  bottom: 20%;
+  right: 28%;
+  animation: back 5s infinite;
+}
+
+
+@keyframes back {
+  0% {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 0 2px;
+    transform: rotateX(180deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateX(360deg);
+  }
+}
