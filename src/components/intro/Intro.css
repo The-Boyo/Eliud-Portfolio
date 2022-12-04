@@ -1,0 +1,92 @@
+
+.intro {
+  margin-top: 6rem;
+  padding: .5em;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  color: antiquewhite;
+}
+
+.profile {
+  padding: .5em;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  justify-items: center;
+}
+
+.profile-pic {
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px;
+  background-image: url('../../../public/Profile-pic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bio {
+  display: grid;
+  grid-template-columns: 2fr;
+  justify-items: center;
+}
+
+.myName {
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 1px;  
+}
+
+.hi {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px -1.5px 1px rgb(159, 132, 204);
+  justify-self: center;
+} 
+
+.name-title {
+ font-family: 'Times New Roman', Times, serif;
+ justify-self: center;
+}
+
+.about {
+  margin: 1em 1em;
+  padding: .87em;
+  display: flex;
+  flex-direction: column;
+  color: aquamarine;
+}
+
+.title-about {
+  font-family: cursive;
+  font-style: italic;
+}
+
+.para-about {
+  margin: 1em 0;
+  word-spacing: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+
+
+
+/* Small Screens */
+
+@media screen and (max-width:587px) {
+  .intro {
+    grid-template-columns: 3fr;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 3fr;
+    place-items: center;
+    border-radius: .5em;
+    box-shadow: -2px -2px 4px;
+  }
+
+  .title-about {
+    justify-self: start;
+  }
+
+}
