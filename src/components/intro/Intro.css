@@ -55,28 +55,25 @@
 }
 
 
-
-.hi {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-shadow: 2px -1.5px 1px rgb(159, 132, 204);
-  justify-self: center;
-  margin-bottom: 2em;
-  font-size: 2em;
-} 
-
-.name-title {
- font-family: Georgia, 'Times New Roman', Times, serif;
- justify-self: center;
- margin-bottom: 2em;
- font-size: 1.4em;
-}
-
 .about {
   margin: 1em 1em;
   padding: 1.3em;
   display: flex;
   flex-direction: column;
   color: aquamarine;  
+}
+
+.hi {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px -1.5px 1px rgb(159, 132, 204);
+  margin-bottom: 2em;
+  font-size: 2em;
+} 
+
+.name-title {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-bottom: 2em;
+ font-size: 1.4em;
 }
 
 .title-about {
