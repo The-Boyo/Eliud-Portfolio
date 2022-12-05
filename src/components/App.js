@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./header/Header";
 import './App.css';
 import Intro from "./intro/Intro";
+import Skills from "./skills/Skills";
 
 
 
@@ -12,7 +13,10 @@ const App = () => {
     <div className="all">
       <Header />
       <Intro />
+      <Skills />
 
+    {/* Animated background divs */}
+    
       <div className="back one" ></div>
       <div className="back two"></div>
       <div className="back three"></div>
@@ -33,8 +37,6 @@ const App = () => {
       <div className="back eighteen"></div>
       <div className="back nineteen"></div>
       <div className="back twenty"></div>
-
-
 
     </div>
   )

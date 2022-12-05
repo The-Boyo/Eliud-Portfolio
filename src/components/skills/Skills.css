@@ -1,0 +1,67 @@
+.tech-stack {
+  margin: 1em;
+  padding: .5em;
+  color: antiquewhite;
+  display: grid;
+  grid-template-columns: 3fr;
+}
+
+.skills-title {
+  justify-self: center;
+  margin-bottom: 1.2em;
+}
+
+.skills-cont {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  border-radius: .5em;
+  box-shadow: -2px -2px 4px;
+}
+
+img {
+  margin: 1.5em;
+  height: 8em;
+}
+
+.js {
+  margin-right: 2em;
+}
+
+/* Small laptops */
+
+@media screen and (max-width:1019px) {
+  img {
+    height: 6em;
+  }
+}
+
+@media screen and (max-width:866px) {
+  img {
+    height: 4.5em;
+    margin: .7em;
+    margin-right: .4em;
+  }
+}
+
+
+/* Smaller UIs */
+
+@media screen and (max-width:600px) {
+  .skills-cont {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    place-items: center;
+  }
+
+  img {
+    height: 4em;
+    margin: 1em;
+  }
+}
+
+
+
+
+
+
