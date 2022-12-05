@@ -12,8 +12,8 @@ const Skills = () => {
       <img src={require("./CSS 3.png")} alt="css" className="css" />
       <img src={require("./js-img.png")} alt="js" className="js" />
       <img src={require("./logo192.png")} alt="react" className="react"/>
-      <img src={require("./GitHub-Mark-120px-plus.png")}  alt="GitHub" className="github"/>
       <img src={require("./Git-Icon.png")} alt="git" className="git" />
+      <img src={require("./GitHub-Mark-120px-plus.png")}  alt="GitHub" className="github"/>
     </div>
   </section>
   )
