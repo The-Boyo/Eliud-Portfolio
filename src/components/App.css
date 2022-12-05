@@ -16,8 +16,8 @@ body {
 }
 
 .back {
-  height: 20px;
-  width: 20px;
+  height: 5px;
+  width: 5px;
   border-radius: 50%;
   border: 1px solid;
   color: rgb(19, 214, 214);
@@ -71,38 +71,38 @@ body {
 .eight {
   top: 9%;
   left: 50%;
-  animation: back 8s infinite;
+  animation: back 6.5s infinite;
 }
 
 .nine {
   top: 20%;
   left: 52%;
-  animation: back 5s infinite;
+  animation: back 3.5s infinite;
 }
 
 .ten {
   top: 50%;
   left: 10%;
-  animation: back 7s infinite;
+  animation: back 5.5s infinite;
 }
 
 .eleven {
   position: relative;
   top: 50%;
   left: 50%;
-  animation: back 9s infinite;
+  animation: back 6s infinite;
 }
 
 .twelve {
   bottom: 30%;
   left: 40%;
-  animation: back 4s infinite;
+  animation: back 2s infinite;
 }
 
 .thirteen {
   top: 30%;
   left: 5%;
-  animation: back 4s infinite;
+  animation: back 2.5s infinite;
 }
 
 .fourteen {
@@ -114,37 +114,37 @@ body {
 .fifteen {
   bottom: 5%;
   left: 5%;
-  animation: back 8s infinite;
+  animation: back 5s infinite;
 }
 
 .sixteen {
   left: 15%;
   bottom: 30%;
-  animation: back 6s infinite;
+  animation: back 3s infinite;
 }
 
 .seventeen {
   top: 46%;
   left: 32%;
-  animation: back 9s infinite;
+  animation: back 4s infinite;
 } 
 
 .eighteen {
   top: 25%;
   right: 30%;
-  animation: back 3s infinite;
+  animation: back 1.5s infinite;
 }
 
 .nineteen {
   bottom: 4%;
   right: 25%;
-  animation: back 7s infinite;
+  animation: back 5s infinite;
 }
 
 .twenty {
   bottom: 20%;
   right: 28%;
-  animation: back 5s infinite;
+  animation: back 3s infinite;
 }
 
 

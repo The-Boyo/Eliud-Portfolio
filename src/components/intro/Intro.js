@@ -12,13 +12,16 @@ const Intro = () => {
         </div>
           <div className="bio">
           <h2 className="myName">Eliud Metto</h2>
-          <h4 className="do">Front-End developer || Providing that UI/UX touch</h4>
+          <h4 className="do">Front-End Developer || Providing that UI/UX touch</h4>
           <div className="icon-brands">
-            <a href="https://www.linkedin.com/in/eliud-metto-8819ab1b4/">
+            <a href="https://www.linkedin.com/in/eliud-metto-8819ab1b4/" target="blank">
             <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/The-Boyo">
+            <a href="https://github.com/The-Boyo" target="blank">
             <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:eliudmetto93@gmail.com" target="blank">
+            <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>

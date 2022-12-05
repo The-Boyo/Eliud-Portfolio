@@ -48,7 +48,7 @@
   height: 50px;
 }
 
-.fa-brands {
+.fa-brands, .fa-solid {
   font-size: 30px;
   color: rgb(234, 234, 238);
   margin: 0 .4em;
