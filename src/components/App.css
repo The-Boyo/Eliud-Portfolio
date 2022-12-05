@@ -151,16 +151,14 @@ body {
 @keyframes back {
   0% {
     opacity: 0;
-    transform: translateY(-300px);
+    transform: translateY(-300px) rotateY(90deg);
   }
 
   50% {
     opacity: 1;
     box-shadow: 0 0 0 2px;
-    transform: rotateX(180deg);
   }
   100% {
     opacity: 0;
-    transform: rotateX(360deg);
   }
 }

@@ -1,6 +1,6 @@
 
 .intro {
-  margin-top: 6rem;
+  margin-top: 5rem;
   padding: .5em;
   display: grid;
   grid-template-columns: 3fr 4fr;
@@ -15,6 +15,7 @@
 }
 
 .profile-pic {
+  margin-bottom: 2em;
   height: 15em;
   width: 15em;
   border-radius: 50%;
@@ -26,7 +27,7 @@
 
 .bio {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 3fr;
   justify-items: center;
 }
 
@@ -35,36 +36,47 @@
   text-shadow: 1px 1px 1px;  
 }
 
+.do {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(165, 154, 141, 0.801);
+}
+
 .hi {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px -1.5px 1px rgb(159, 132, 204);
   justify-self: center;
+  margin-bottom: 2em;
+  font-size: 2em;
 } 
 
 .name-title {
- font-family: 'Times New Roman', Times, serif;
+ font-family: Georgia, 'Times New Roman', Times, serif;
  justify-self: center;
+ margin-bottom: 2em;
+ font-size: 1.4em;
 }
 
 .about {
   margin: 1em 1em;
-  padding: .87em;
+  padding: 1.3em;
   display: flex;
   flex-direction: column;
-  color: aquamarine;
+  color: aquamarine;  
 }
 
 .title-about {
   font-family: cursive;
   font-style: italic;
+  margin-left: 1em;
+  color: rgba(127, 255, 212, 0.555);
 }
 
 .para-about {
   margin: 1em 0;
-  word-spacing: 3px;
+  word-spacing: 1.5px;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-  font-size: 1.1em;
+  font-weight: 510;
+  color: rgba(127, 255, 212, 0.86);
 }
 
 
