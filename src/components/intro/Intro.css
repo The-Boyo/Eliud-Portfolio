@@ -1,6 +1,6 @@
 
 .intro {
-  margin-top: 5rem;
+  margin-top: 6rem;
   padding: .5em;
   display: grid;
   grid-template-columns: 3fr 4fr;
@@ -10,12 +10,12 @@
 .profile {
   padding: .5em;
   display: grid;
-  grid-template-rows: 3fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
   justify-items: center;
 }
 
 .profile-pic {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   height: 15em;
   width: 15em;
   border-radius: 50%;
@@ -29,6 +29,7 @@
   display: grid;
   grid-template-columns: 3fr;
   justify-items: center;
+  margin-bottom: 2em;
 }
 
 .myName {
@@ -40,6 +41,20 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgba(165, 154, 141, 0.801);
 }
+
+.icon-brands {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: rgb(234, 234, 238);
+  margin: 0 .4em;
+}
+
+
 
 .hi {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

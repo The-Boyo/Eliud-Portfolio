@@ -10,9 +10,17 @@ const Intro = () => {
       <div className="profile">
         <div className="profile-pic">
         </div>
-        <div className="bio">
-        <h2 className="myName">Eliud Metto</h2>
-        <h4 className="do">Front-End developer || Providing that UI/UX touch</h4>
+          <div className="bio">
+          <h2 className="myName">Eliud Metto</h2>
+          <h4 className="do">Front-End developer || Providing that UI/UX touch</h4>
+          <div className="icon-brands">
+            <a href="https://www.linkedin.com/in/eliud-metto-8819ab1b4/">
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/The-Boyo">
+            <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
       </div>
       <div className="about">
