@@ -31,9 +31,7 @@ const Header = () => {
               <a href="#" id="projects" className="navlink">Projects</a>
             </li>
           </ul>
-          <div>
             <i className="fa-solid fa-bars"></i>
-          </div>
         </nav>
     </header>
   )
