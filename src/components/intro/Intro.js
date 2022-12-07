@@ -15,13 +15,13 @@ const Intro = () => {
           <h4 className="do">Front-End Developer || Providing that UI/UX touch</h4>
           <div className="icon-brands">
             <a href="https://www.linkedin.com/in/eliud-metto-8819ab1b4/" target="blank">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://github.com/The-Boyo" target="blank">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             </a>
             <a href="mailto:eliudmetto93@gmail.com" target="blank">
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>

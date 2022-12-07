@@ -8,9 +8,12 @@ import './Header.css';
 const Header = (props) => {
   return (
     <header>
-        <h4 className="title">
-          EM
-        </h4>
+      <h4 className="title">
+        EM
+      </h4>
+        <nav className="nav">
+          
+        </nav>
     </header>
   )
 }
