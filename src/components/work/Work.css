@@ -18,7 +18,7 @@
 }
 
 .work-container:hover {
-  box-shadow: -3px -3px 4px;
+  box-shadow: -3px -3px 5px;
 }
 
 .works {
@@ -40,8 +40,21 @@
   font-style: italic;
 }
 
+.fa-laptop-code {
+  font-size: 1em;
+}
+
+.fa-briefcase {
+  font-size: 1.2em;
+}
+
+.fa-regular {
+  margin: 0 .5em;
+  color: azure;
+}
+
 .description {
-  margin-top: 1em;
+  margin-top: 1.3em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   word-spacing: 4px;
   line-height: 1.5em;

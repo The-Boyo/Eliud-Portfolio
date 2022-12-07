@@ -162,3 +162,37 @@ body {
     opacity: 0;
   }
 }
+
+.end {
+  padding: 1em;
+  display: grid;
+  place-items: center;
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+}
+
+.closing > i {
+  font-size: 1em;
+  color: bisque;
+}
+
+.eliud {
+  color: rgb(27, 224, 250);
+  text-transform: uppercase;
+  animation: eli 4s infinite;
+  text-shadow: -1px -1px 1px rgb(131, 234, 252);
+}
+
+@keyframes eli {
+  25% {
+    color: rgb(184, 245, 18);
+  }
+  50% {
+    color: rgb(194, 173, 148);
+  }
+  75% {
+    color: rgb(243, 178, 93);
+  }
+}
+
