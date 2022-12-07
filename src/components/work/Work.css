@@ -60,16 +60,16 @@
   line-height: 1.5em;
 }
 
-a {
+.weather {
   color: rgb(130, 130, 221);
   text-decoration: none;
 }
 
-a:active {
+.weather:active {
   color: green;
 }
 
-a:visited {
+.weather:visited {
   color: brown;
 }
 
