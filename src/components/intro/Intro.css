@@ -87,7 +87,7 @@
   margin: 1em 0;
   word-spacing: 5px;
   line-height: 1.5em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 510;
   color: rgba(127, 255, 212, 0.86);
 }
@@ -108,6 +108,10 @@
     place-items: center;
     border-radius: .5em;
     box-shadow: -2px -2px 4px;
+  }
+
+  .about:hover {
+    box-shadow: -3px -3px 4px;
   }
 
   .title-about {

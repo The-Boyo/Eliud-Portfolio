@@ -5,6 +5,7 @@ import Header from "./header/Header";
 import './App.css';
 import Intro from "./intro/Intro";
 import Skills from "./skills/Skills";
+import Work from "./work/Work";
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
       <Header />
       <Intro />
       <Skills />
+      <Work />
 
     {/* Animated background divs */}
     
