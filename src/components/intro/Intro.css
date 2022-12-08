@@ -1,6 +1,6 @@
 
 .intro {
-  margin-top: 6rem;
+  margin: 6rem 2em 0;
   padding: .5em;
   display: grid;
   grid-template-columns: 3fr 4fr;
@@ -60,7 +60,7 @@
   padding: 1.3em;
   display: flex;
   flex-direction: column;
-  color: aquamarine;  
+  color: aquamarine;
 }
 
 .hi {
