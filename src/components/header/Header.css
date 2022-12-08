@@ -105,8 +105,10 @@ header {
   }
 
   .fa-bars, .fa-xmark {
-    display: block;
+    display: grid;
     grid-column: 2;
+    justify-self: end;
+    margin-right: .7em;
   }
 }
 

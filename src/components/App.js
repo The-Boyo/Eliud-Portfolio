@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 
 import Header from "./header/Header";
@@ -11,9 +11,29 @@ import Work from "./work/Work";
 
 
 const App = () => {
+
+  const [allHeight, setAll] = useState(null);
+
+  const allRef = useRef();
+  
+  
+
+  useEffect(()=> {
+
+    const handleResize = () => {
+      setAll(allRef.current.parentElement.parentElement.offsetWidth);
+    }
+
+    window.addEventListener('resize', handleResize);
+
+  }, [allHeight]);
+
+  
+
   return (
-    <div className="all">
-      <Header />
+  <div className="all" ref={allRef} > 
+
+      <Header width={allHeight} />
       <Intro />
       <Skills />
       <Work />
