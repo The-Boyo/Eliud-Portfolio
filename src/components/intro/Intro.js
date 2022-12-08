@@ -6,7 +6,7 @@ import './Intro.css';
 const Intro = () => {
   
   return (
-    <section className="intro">
+    <section className="intro" > 
       <div className="profile">
         <div className="profile-pic">
         </div>
@@ -26,7 +26,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="about">
+      <div className="about" id="about-me">
         <h1 className="hi">Hi..</h1>
         <h2 className="name-title">Eliud here,</h2>
         <h4 className="title-about">About Me</h4>

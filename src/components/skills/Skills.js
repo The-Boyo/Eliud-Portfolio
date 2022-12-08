@@ -5,7 +5,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-  <section className="tech-stack">
+  <section className="tech-stack" id="tech-skills">
     <h2 className="skills-title">Tech Stack</h2>
     <div className="skills-cont">
       <img src={require("./html5.svg").default} alt="html" className="html5" />
