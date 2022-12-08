@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 
 import './Header.css';
@@ -20,6 +20,22 @@ const Header = ({ width }) => {
       navRef.current.style.display='none';
     }
   }
+
+  useEffect(() => {
+      window.matchMedia('(max-width: 600px)').addEventListener('change', () => {
+        if (navRef.current) {
+          if (window.matchMedia('(max-width: 600px)').matches) {
+            navRef.current.style.display='none';
+          }
+          else {
+            navRef.current.style.display='flex';
+          }
+        } 
+        else {
+          return
+        }
+      })
+    })
 
 
   const renderButton = () => {
