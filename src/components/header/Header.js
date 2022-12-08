@@ -54,19 +54,19 @@ const Header = ({ width }) => {
           
           <ul className="navbar" ref={navRef}>
             <li>
-              <a href="#" className="navlink" id="home">Home</a>
+              <a href="#" className="navlink" id="home" onClick={displayNav}>Home</a>
             </li>
             <li>
-              <a href="#about-me" className="navlink">About</a>
+              <a href="#about-me" className="navlink" onClick={displayNav}>About</a>
             </li>
             <li>
-              <a href="#tech-skills" className="navlink">Skills</a>
+              <a href="#tech-skills" className="navlink" onClick={displayNav}>Skills</a>
             </li>
             <li>
-              <a href="#work-experience" className="navlink">Experience</a>
+              <a href="#work-experience" className="navlink" onClick={displayNav}>Experience</a>
             </li>
             <li>
-              <a href="#" id="projects" className="navlink">Projects</a>
+              <a href="#" id="projects" className="navlink" onClick={displayNav} >Projects</a>
             </li>
           </ul>
             {renderButton()}
