@@ -15,9 +15,18 @@ const Header = ({ width }) => {
       navRef.current.style.display = 'flex';
       setButton(false);
     }
+    else if (e.target.className === "fa-solid fa-xmark") {
+      setButton(true);
+      navRef.current.style.display='none';
+    }
     else {
       setButton(true);
       navRef.current.style.display='none';
+      if(width > 600 ) {
+        setTimeout(()=> {
+        navRef.current.style.display="flex"
+        }, 0.001)
+      }
     }
   }
 
@@ -66,7 +75,7 @@ const Header = ({ width }) => {
               <a href="#work-experience" className="navlink" onClick={displayNav}>Experience</a>
             </li>
             <li>
-              <a href="#" id="projects" className="navlink" onClick={displayNav} >Projects</a>
+              <a href="#projects" className="navlink" onClick={displayNav} >Projects</a>
             </li>
           </ul>
             {renderButton()}

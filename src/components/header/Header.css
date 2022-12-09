@@ -10,10 +10,10 @@ header {
   z-index: 1;
   color: antiquewhite;
   background: rgb(13, 32, 75);
-}
+} 
 
 .title {
-  margin-left: 1em;
+  margin-left: 1.5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
   text-decoration: line-through;
@@ -28,6 +28,7 @@ header {
   display: flex;
   align-content: center;
   justify-content: end;
+  grid-column: 2;
 }
 
 .navbar > li {
