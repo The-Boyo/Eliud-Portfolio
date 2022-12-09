@@ -26,12 +26,12 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="about" id="about-me">
-        <h1 className="hi">Hi..</h1>
+      <div className="about" id="about-me"> 
+        <h1 className="hi">Hello..</h1>
         <h2 className="name-title">Eliud here,</h2>
         <h4 className="title-about">About Me</h4>
         <p className="para-about">
-          I'm a Front-End Developer well adept in <strong>HTML, CSS, JavaScript, React </strong> as well as version control system <strong> Git</strong> and also <strong>GitHub</strong>. Not forgetting, I provide that glossy UI/UX touch that gives users a hearty experience when interacting with your site. Your ideas and thoughts are mine to execute and bringing into fruition what you picture is my endeavour. 
+          I'm a Front-End Developer adept in <strong>HTML, CSS, JavaScript, React </strong> as well as version control system <strong> Git</strong> and also <strong>GitHub</strong>. Need a website stitched up? Worry not. I am your guy. Through me, you can express yourself and gather that audience that you've been yearning for. I provide that glossy UI/UX touch that gives users a hearty experience when interacting with your site. Your aim is my execution so do not sleep on that idea. I know together we can bring the best out of it and each other. As I help you scale new heights, you'll also be expanding my scope. Onto it now!  
         </p>
       </div>
     </section>

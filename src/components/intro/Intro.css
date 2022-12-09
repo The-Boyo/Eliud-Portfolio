@@ -56,17 +56,25 @@
 
 
 .about {
-  margin: 1em 1em;
-  padding: 1.3em;
+  margin: 1em;
+  padding: 1.5em 1.5em 1em 1.5em;
   display: flex;
   flex-direction: column;
   color: aquamarine;
+  box-shadow: 1px 1px 3px;
+  border-radius: 5px;
+}
+
+.about:hover {
+  box-shadow: 1.5px 1.5px 3px;
+  border: 1px solid;
 }
 
 .hi {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px -1.5px 1px rgb(159, 132, 204);
-  margin-bottom: 2em;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
   font-size: 2em;
 } 
 
@@ -79,17 +87,18 @@
 .title-about {
   font-family: cursive;
   font-style: italic;
-  margin-left: 1em;
+  margin: 1em 0 0 1em;
   color: rgba(127, 255, 212, 0.555);
 }
 
 .para-about {
-  margin: 1em 0;
-  word-spacing: 5px;
-  line-height: 1.5em;
+  margin: 1em 0 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 510;
   color: rgba(127, 255, 212, 0.86);
+  font-size: 14.5px;
+  word-spacing: 5px;
+  line-height: 1.8em;
 }
 
 
@@ -107,11 +116,11 @@
     grid-template-columns: 3fr;
     place-items: center;
     border-radius: .5em;
-    box-shadow: -2px -2px 4px;
+    box-shadow: -1px -1px 3px;
   }
 
   .about:hover {
-    box-shadow: -3px -3px 4px;
+    box-shadow: -1.5px -1.5px 3px;
   }
 
   .title-about {
