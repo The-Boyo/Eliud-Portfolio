@@ -64,7 +64,7 @@ const App = () => {
       <div className="back twenty"></div>
 
       <footer className="end">
-        <p className="closing">Stitched by<i className="fa-solid fa-hand-point-right"></i><span className="eliud">Eliud</span><i className="fa-solid fa-hand-point-left"></i></p>
+        <p className="closing">Stitched by<span className="emoji-code">👨🏿‍💻</span><span className="eliud"> Eliud</span></p>
       </footer>
 
     </div>

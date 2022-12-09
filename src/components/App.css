@@ -172,16 +172,21 @@ body {
   font-style: oblique;
 }
 
-.closing > i {
-  font-size: 1em;
-  color: bisque;
-}
 
 .eliud {
   color: rgb(27, 224, 250);
   text-transform: uppercase;
   animation: eli 4s infinite;
   text-shadow: -1px -1px 1px rgb(131, 234, 252);
+  margin-left: .2em;
+  font-style: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.emoji-code {
+  font-style: normal;
+  font-size: 1.5em;
+  margin-left: .3em;
 }
 
 @keyframes eli {

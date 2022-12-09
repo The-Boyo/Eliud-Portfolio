@@ -41,6 +41,10 @@
   font-style: italic;
 }
 
+.work-place > span {
+  font-style: normal;
+}
+
 .fa-laptop-code {
   font-size: 1em;
 }
