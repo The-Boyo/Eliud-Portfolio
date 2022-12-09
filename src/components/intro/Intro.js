@@ -27,7 +27,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="about" id="about-me"> 
-        <h1 className="hi">Hello..</h1>
+        <h1 className="hi">Hello<span className="emoji">&#128075;</span></h1>
         <h2 className="name-title">Eliud here,</h2>
         <h4 className="title-about">About Me</h4>
         <p className="para-about">

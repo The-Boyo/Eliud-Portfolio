@@ -78,6 +78,11 @@
   font-size: 2em;
 } 
 
+.emoji {
+  margin-left: .1em;
+  font-size: .9em;
+}
+
 .name-title {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  margin-bottom: 2em;
