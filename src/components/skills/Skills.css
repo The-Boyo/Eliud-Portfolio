@@ -1,5 +1,6 @@
 .tech-stack {
   margin: 1em;
+  margin-top: 3.5em;
   padding: .5em;
   color: antiquewhite;
   display: grid;
@@ -8,20 +9,19 @@
 
 .skills-title {
   justify-self: center;
-  margin-bottom: 1.2em;
+  margin-bottom: .5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .skills-cont {
-  padding: 1em;
+  padding: .5em;
   display: flex;
   justify-content: center;
   border-radius: .5em;
-  box-shadow: -2px -2px 3px;
 }
 
 .skills-cont:hover {
-  box-shadow: -3px -3px 4px;
+  box-shadow: -1px -1px 2px;
 }
 
 img {
@@ -62,7 +62,7 @@ img {
   img {
     height: 4em;
     margin: 1em;
-  }
+  } 
 }
 
 @media screen and (max-width:390px) {

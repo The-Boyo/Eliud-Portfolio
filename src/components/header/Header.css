@@ -2,7 +2,7 @@ header {
   position: fixed;
   top: 0;
   height: 4rem;
-  width: 95%;
+  width: 100%;
   min-width: min-content;
   display: grid;
   grid-template-columns: 2.5fr 4fr;
@@ -27,8 +27,9 @@ header {
 .navbar{
   display: flex;
   align-content: center;
-  justify-content: end;
+  justify-content: flex-end;
   grid-column: 2;
+  margin-right: 2em;
 }
 
 .navbar > li {

@@ -12,9 +12,10 @@
 }
 
 .work-container {
-  box-shadow: -2px -2px 4px;
+  box-shadow: -1px -1px 3px;
   border-radius: .5em;
   padding: 1em;
+  margin-bottom: 3.5em;
 }
 
 .work-container:hover {
@@ -76,6 +77,10 @@
 /* Small Screen */
 
 @media screen and (max-width:600px) {
+  .work-container {
+    margin-bottom: 2em;
+  }
+
   .description {
     word-spacing: 2px;
   }
