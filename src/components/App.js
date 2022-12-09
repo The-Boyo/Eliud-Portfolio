@@ -6,6 +6,7 @@ import './App.css';
 import Intro from "./intro/Intro";
 import Skills from "./skills/Skills";
 import Work from "./work/Work";
+import Projects from "./projects/Projects";
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
       <Intro />
       <Skills />
       <Work />
+      <Projects />
 
     {/* Animated background divs */}
     
