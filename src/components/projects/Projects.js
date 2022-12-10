@@ -48,7 +48,7 @@ const Projects = () => {
           </div>
           <h4 className="projo-name">Portfolio Site</h4>
           <p className="projo-des">
-            My portfolio site that holds information about who I am, what I do and the tech stack I am into, where I have and I work and also my skills. This app owelcomse you to my world where you get to know who Eliud the developer is.  
+            My portfolio site holds information about who I am, what I do and the tech stack I am into, where I have worked and also my skills. This app welcomes you to my world. Here, you get to know who Eliud the developer is and much more.  
           </p>    
           <a href="#" className="linking portfolio-site_link">
             <button className="btn-check">View</button>

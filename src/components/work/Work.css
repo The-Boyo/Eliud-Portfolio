@@ -45,22 +45,15 @@
   font-style: normal;
 }
 
-.fa-laptop-code {
-  font-size: 1em;
+.date {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.fa-briefcase {
-  font-size: 1.2em;
-}
-
-.fa-regular {
-  margin: 0 .5em;
-  color: azure;
-}
 
 .description {
   margin-top: 1.3em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14.5px;
   word-spacing: 4px;
   line-height: 1.5em;
 }
