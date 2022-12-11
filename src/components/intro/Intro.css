@@ -20,7 +20,7 @@
   width: 15em;
   border-radius: 50%;
   box-shadow: 1px 1px 3px;
-  background-image: url('../../../public/Profile-pic.jpg');
+  background-image: url('../../../public/profile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -100,7 +100,7 @@
   margin: 1em 0 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 510;
-  color: rgba(127, 255, 212, 0.86);
+  color: rgba(127, 255, 212, 0.733);
   font-size: 14.5px;
   word-spacing: 5px;
   line-height: 1.8em;
@@ -108,7 +108,7 @@
 
 .para-about > span {
   font-style: italic;
-}
+} 
 
 
 

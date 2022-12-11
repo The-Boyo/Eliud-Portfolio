@@ -189,6 +189,11 @@ body {
   margin-left: .3em;
 }
 
+.end > a {
+  color: antiquewhite;
+  margin-top: .7em;
+}
+
 @keyframes eli {
   25% {
     color: rgb(184, 245, 18);

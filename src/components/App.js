@@ -65,6 +65,7 @@ const App = () => {
 
       <footer className="end">
         <p className="closing">Stitched by<span className="emoji-code">👨🏿‍💻</span><span className="eliud"> Eliud</span></p>
+        <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/Q7G3j0Lgfpfb/businessman">Businessman</a> icon by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
       </footer>
 
     </div>
