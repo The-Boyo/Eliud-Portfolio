@@ -48,13 +48,13 @@
   height: 50px;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands, .fa-envelope {
   font-size: 30px;
   color: rgb(234, 234, 238);
   margin: 0 .4em;
 }
 
-.fa-brands:hover, .fa-solid:hover {
+.fa-brands:hover, .fa-envelope:hover {
   color: aqua;
 }
 
