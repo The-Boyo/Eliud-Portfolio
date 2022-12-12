@@ -54,6 +54,9 @@
   margin: 0 .4em;
 }
 
+.fa-brands:hover, .fa-solid:hover {
+  color: aqua;
+}
 
 .about {
   margin: 1em;
@@ -93,13 +96,12 @@
   font-family: cursive;
   font-style: italic;
   margin: 1em 0 0 1em;
-  color: rgba(127, 255, 212, 0.555);
+  color: rgba(127, 255, 212, 0.655);
 }
 
 .para-about {
   margin: 1em 0 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 510;
   color: rgba(127, 255, 212, 0.733);
   font-size: 14.5px;
   word-spacing: 5px;
@@ -107,7 +109,7 @@
 }
 
 .para-about > span {
-  font-style: italic;
+  font-style: oblique;
 } 
 
 

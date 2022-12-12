@@ -61,7 +61,7 @@ const Header = ({ width }) => {
       </h4>
         <nav className="nav" >
           
-          <ul className="navbar" ref={navRef}>
+          <ul className="navbar" ref={navRef} onClick={displayNav}>
             <li>
               <a href="#" className="navlink" id="home" onClick={displayNav}>Home</a>
             </li>

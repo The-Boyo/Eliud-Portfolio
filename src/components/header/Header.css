@@ -71,7 +71,7 @@ header {
 @media screen and (max-width:600px) {
   .navbar {
       display: none; 
-      animation: navig 1.5s ease-out 0s 1;
+      animation: navig .5s ease-out 0s 1;
   }
 
   @keyframes navig {
