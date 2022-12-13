@@ -23,6 +23,13 @@
   background-image: url('../../../public/profile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  animation: profile 2.2s 1;
+}
+
+@keyframes profile {
+  0% {
+    transform: translateY(-300px);
+  }
 }
 
 .bio {
@@ -35,11 +42,13 @@
 .myName {
   font-family: 'Times New Roman', Times, serif;
   text-shadow: 1px 1px 1px;  
+  animation: bio 2s 1;
 }
 
 .do {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgba(165, 154, 141, 0.801);
+  animation: bio 3s 1;
 }
 
 .icon-brands {
@@ -54,9 +63,47 @@
   margin: 0 .4em;
 }
 
+.fa-linkedin {
+  animation: icons 6s 1;
+}
+
+.fa-github {
+  animation: icons 6.5s 1;
+}
+
+.fa-envelope {
+  animation: icons 7s 1;
+}
+
 .fa-brands:hover, .fa-envelope:hover {
   color: aqua;
 }
+
+@keyframes bio {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes icons {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+    color: aqua;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
 .about {
   margin: 1em;
@@ -66,6 +113,7 @@
   color: aquamarine;
   box-shadow: 1px 1px 3px;
   border-radius: 5px;
+  animation: bio 5.5s 1;
 }
 
 .about:hover {
