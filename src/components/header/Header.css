@@ -10,7 +10,20 @@ header {
   z-index: 1;
   color: antiquewhite;
   background: linear-gradient(to left, rgb(16, 9, 56), rgb(22, 67, 126), rgb(16, 9, 56));
+  animation: header 1.5s 1;
 } 
+
+@keyframes header {
+  0%{
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .title {
   margin-left: 1.5em;
