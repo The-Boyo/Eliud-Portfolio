@@ -5,7 +5,8 @@
 }
 
 body {
-  background: rgb(13, 32, 75);
+  background: linear-gradient(to left, rgb(16, 9, 56), rgb(22, 67, 126), rgb(16, 9, 56));
+
 }
 
 .all {
