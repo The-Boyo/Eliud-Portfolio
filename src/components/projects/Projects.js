@@ -26,7 +26,7 @@ const Projects = () => {
           <p className="projo-des">
             A fairly simple budget app made with React and incorporates Redux for state management. The complexity comes in with state management and how user data is shipped from one component to another and also how the data is utilised by different components. 
           </p>
-          <a href="#" target="blank" className="linking budget_link">
+          <a href="https://github.com/The-Boyo/Budget-E-App" target="blank" className="linking budget_link">
             <button className="btn-check">View</button>
           </a>
         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
           <p className="projo-des">
             A to-do app with a different feel that has features such as data persistence, a deadline countdown plus a delete button that only works when the user has marked a task as completed. The app also uses a fairly simple state management system due the nature of its complexity. 
           </p>
-          <a href="#" target="blank" className="linking to-do_link">
+          <a href="https://github.com/The-Boyo/To-do-App" target="blank" className="linking to-do_link">
             <button className="btn-check">View</button>
           </a>
         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
           <p className="projo-des">
             My portfolio site holds information about who I am, what I do and the tech stack I am into, where I have worked and also my skills. This app welcomes you to my world. Here, you get to know who Eliud the developer is and much more.  
           </p>    
-          <a href="#" className="linking portfolio-site_link">
+          <a href="https://eliudmetto.netlify.app/#" className="linking portfolio-site_link">
             <button className="btn-check">View</button>
           </a>
         </div>
