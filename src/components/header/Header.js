@@ -25,7 +25,7 @@ const Header = ({ width }) => {
       if(width > 600 ) {
         setTimeout(()=> {
         navRef.current.style.display="flex"
-        }, 0.001)
+        }, 0.001) 
       }
     }
   }
