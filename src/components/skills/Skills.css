@@ -1,89 +1,83 @@
 .tech-stack {
-  margin: 1em;
-  margin-top: 3.5em;
-  padding: .5em;
-  color: antiquewhite;
-  display: grid;
-  grid-template-columns: 3fr;
+	margin: 1em;
+	margin-top: 3.5em;
+	padding: 0.5em;
+	color: var(--antiquewhite);
+	display: grid;
+	grid-template-columns: 3fr;
 }
 
 .skills-title {
-  justify-self: center;
-  margin-bottom: .5em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	justify-self: center;
+	margin-bottom: 0.5em;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
 .skills-cont {
-  padding: .5em;
-  display: flex;
-  justify-content: center;
-  border-radius: .5em;
+	padding: 0.5em;
+	display: flex;
+	justify-content: center;
+	border-radius: 0.5em;
 }
 
 .skills-cont:hover {
-  box-shadow: -1px -1px 2px;
+	box-shadow: -1px -1px 2px;
 }
 
 img {
-  margin: 1.5em;
-  height: 8em;
+	margin: 1.5em;
+	height: 8em;
 }
 
 .js {
-  margin-right: 2em;
+	margin-right: 2em;
 }
 
 /* Small laptops */
 
-@media screen and (max-width:1019px) {
-  img {
-    height: 6em;
-  }
+@media screen and (max-width: 1019px) {
+	img {
+		height: 6em;
+	}
 }
 
-@media screen and (max-width:866px) {
-  img {
-    height: 4.5em;
-    margin: .7em;
-    margin-right: .4em;
-  }
+@media screen and (max-width: 866px) {
+	img {
+		height: 4.5em;
+		margin: 0.7em;
+		margin-right: 0.4em;
+	}
 }
-
 
 /* Smaller UIs */
 
-@media screen and (max-width:600px) {
-  .skills-cont {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    place-items: center;
-  }
+@media screen and (max-width: 600px) {
+	.skills-cont {
+		display: grid;
+		grid-template-columns: 3fr 3fr 3fr;
+		place-items: center;
+	}
 
-  img {
-    height: 4em;
-    margin: 1em;
-  } 
+	img {
+		height: 4em;
+		margin: 1em;
+	}
 }
 
-@media screen and (max-width:390px) {
-  .skills-cont {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    place-items: center;
-  }
+@media screen and (max-width: 390px) {
+	.skills-cont {
+		display: grid;
+		grid-template-columns: 3fr 3fr 3fr;
+		place-items: center;
+	}
 
-  img {
-    height: 3em;
-    margin: .5em;
-  }
+	img {
+		height: 3em;
+		margin: 0.5em;
+	}
 
-  .js {
-    margin-right: .5em;
-  }
+	.js {
+		margin-right: 0.5em;
+	}
 }
-
-
-
-
-
-
