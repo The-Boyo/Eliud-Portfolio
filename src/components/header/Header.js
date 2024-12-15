@@ -6,7 +6,7 @@ import ThemeChanger from "./ThemeChanger";
 const Header = ({ width }) => {
 	const [button, setButton] = useState(true);
 
-	const navRef = useRef();
+  const navRef = useRef();
 
 	const displayNav = (e) => {
 		if (e.target.className === "fa-solid fa-bars") {
