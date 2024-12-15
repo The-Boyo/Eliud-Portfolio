@@ -1,209 +1,226 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(to left, rgb(16, 9, 56), rgb(22, 67, 126), rgb(16, 9, 56));
-
+	background: var(--body-background);
 }
 
 .all {
-  height: 100%;
-  width: 100%;
-  min-width: min-content;
-  min-height: min-content;
+	height: 100%;
+	width: 100%;
+	min-width: min-content;
+	min-height: min-content;
 }
 
 .back {
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  border: 1px solid;
-  color: rgb(19, 214, 214);
-  box-shadow: 0 0 0 1px;
-  position: fixed;
-  z-index: -1;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	border: 1px solid;
+	color: var(--animation-back-color);
+	box-shadow: 0 0 0 1px;
+	position: fixed;
+	z-index: -1;
+	perspective: 1000px;
 }
 
 .one {
-  top: 9%;
-  left: 12%;
-  animation: back 7s infinite 2s;
+	top: 9%;
+	left: 12%;
+	animation: back 7s infinite 2s;
 }
 
 .two {
-  top: 13%;
-  right: 7%; 
-  animation: back 12s infinite;
+	top: 13%;
+	right: 7%;
+	animation: back 12s infinite;
 }
 
 .three {
-  top: 55%;
-  right: 30%; 
-  animation: back 5s infinite 1s;
+	top: 55%;
+	right: 30%;
+	animation: back 5s infinite 1s;
 }
 
 .four {
-  top: 40%;
-  right: 20%; 
-  animation: back 3s infinite 3s;
+	top: 40%;
+	right: 20%;
+	animation: back 3s infinite 3s;
 }
 
 .five {
-  top: 24%;
-  left: 30%; 
-  animation: back 5s infinite;
+	top: 24%;
+	left: 30%;
+	animation: back 5s infinite;
 }
 
 .six {
-  bottom: 15%;
-  left: 22%;
-  animation: back 5s infinite;
+	bottom: 15%;
+	left: 22%;
+	animation: back 5s infinite;
 }
 
 .seven {
-  bottom: 30%;
-  right: 5%;
-  animation: back 8s infinite 2s;
+	bottom: 30%;
+	right: 5%;
+	animation: back 8s infinite 2s;
 }
 
 .eight {
-  top: 9%;
-  left: 50%;
-  animation: back 6.5s infinite 1s;
+	top: 9%;
+	left: 50%;
+	animation: back 6.5s infinite 1s;
 }
 
 .nine {
-  top: 20%;
-  left: 52%;
-  animation: back 3.5s infinite .5s;
+	top: 20%;
+	left: 52%;
+	animation: back 3.5s infinite 0.5s;
 }
 
 .ten {
-  top: 50%;
-  left: 10%;
-  animation: back 5.5s infinite;
+	top: 50%;
+	left: 10%;
+	animation: back 5.5s infinite;
 }
 
 .eleven {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  animation: back 6s infinite;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	animation: back 6s infinite;
 }
 
 .twelve {
-  bottom: 30%;
-  left: 40%;
-  animation: back 2s infinite 3s;
+	bottom: 30%;
+	left: 40%;
+	animation: back 2s infinite 3s;
 }
 
 .thirteen {
-  top: 30%;
-  left: 5%;
-  animation: back 2.5s infinite;
+	top: 30%;
+	left: 5%;
+	animation: back 2.5s infinite;
 }
 
 .fourteen {
-  bottom: 10%;
-  right: 10%;
-  animation: back 4s infinite 1s;
+	bottom: 10%;
+	right: 10%;
+	animation: back 4s infinite 1s;
 }
 
 .fifteen {
-  bottom: 5%;
-  left: 5%;
-  animation: back 5s infinite .5s;
+	bottom: 5%;
+	left: 5%;
+	animation: back 5s infinite 0.5s;
 }
 
 .sixteen {
-  left: 15%;
-  bottom: 30%;
-  animation: back 3s infinite .5s;
+	left: 15%;
+	bottom: 30%;
+	animation: back 3s infinite 0.5s;
 }
 
 .seventeen {
-  top: 46%;
-  left: 32%;
-  animation: back 4s infinite;
-} 
+	top: 46%;
+	left: 32%;
+	animation: back 4s infinite;
+}
 
 .eighteen {
-  top: 25%;
-  right: 30%;
-  animation: back 1.5s infinite 3s;
+	top: 25%;
+	right: 30%;
+	animation: back 1.5s infinite 3s;
 }
 
 .nineteen {
-  bottom: 4%;
-  right: 25%;
-  animation: back 5s infinite;
+	bottom: 4%;
+	right: 25%;
+	animation: back 5s infinite;
 }
 
 .twenty {
-  bottom: 20%;
-  right: 28%;
-  animation: back 3s infinite 2s;
+	bottom: 20%;
+	right: 28%;
+	animation: back 3s infinite 2s;
 }
 
-
 @keyframes back {
-  0% {
-    opacity: 0;
-    transform: translateY(-300px) rotateY(270deg);
-  }
+	0% {
+		opacity: 0;
+		transform: translateY(-300px) rotateY(270deg);
+	}
 
-  50% {
-    opacity: 1;
-    box-shadow: 0 0 0 2px;
-  }
-  100% {
-    opacity: 0;
-  }
+	50% {
+		opacity: 1;
+		box-shadow: 0 0 0 2px;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 .end {
-  padding: 1em;
-  display: grid;
-  place-items: center;
-  color: aquamarine;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: oblique;
+	padding: 1em;
+	display: grid;
+	place-items: center;
+	color: var(--aquamarine);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-style: oblique;
 }
 
-
 .eliud {
-  color: rgb(27, 224, 250);
-  text-transform: uppercase;
-  animation: eli 4s infinite;
-  text-shadow: -1px -1px 1px rgb(131, 234, 252);
-  margin-left: .2em;
-  font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: var(--animation-back-color);
+	text-transform: uppercase;
+	animation: eli 4s infinite;
+	text-shadow: -1px -1px 1px var(--eliud-shadow);
+	margin-left: 0.2em;
+	font-style: normal;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .emoji-code {
-  font-style: normal;
-  font-size: 1.5em;
-  margin-left: .3em;
+	font-style: normal;
+	font-size: 1.5em;
+	margin-left: 0.3em;
 }
 
 .end > a {
-  color: antiquewhite;
-  margin-top: .7em;
+	color: var(--antiquewhite);
+	margin-top: 0.7em;
 }
 
 @keyframes eli {
-  25% {
-    color: rgb(184, 245, 18);
-  }
-  50% {
-    color: rgb(194, 173, 148);
-  }
-  75% {
-    color: rgb(243, 178, 93);
-  }
+	25% {
+		color: rgb(184, 245, 18);
+	}
+	50% {
+		color: rgb(194, 173, 148);
+	}
+	75% {
+		color: rgb(243, 178, 93);
+	}
 }
 
+:root {
+	--body-background: linear-gradient(
+		to left,
+		rgb(16, 9, 56),
+		rgb(22, 67, 126),
+		rgb(16, 9, 56)
+	);
+
+	--animation-back-color: rgb(19, 214, 214);
+
+	--aquamarine: aquamarine;
+
+	--eliud-shadow: rgb(131, 234, 252);
+
+	--antiquewhite: antiquewhite;
+
+	--nav-background: rgb(19, 214, 214, 0.89);
+}

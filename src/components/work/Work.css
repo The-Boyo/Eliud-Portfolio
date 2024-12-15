@@ -1,85 +1,86 @@
 .work {
-  color: aquamarine;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em;
+	color: var(--aquamarine);
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em;
 }
 
 .heading-work {
-  align-self: center;
-  margin: 1em 0 .8em;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	align-self: center;
+	margin: 1em 0 0.8em;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
 .work-container {
-  box-shadow: -1px -1px 3px;
-  border-radius: .5em;
-  padding: 1em;
-  margin-bottom: 3.5em;
+	box-shadow: -1px -1px 3px;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin-bottom: 3.5em;
 }
 
 .work-container:hover {
-  box-shadow: -3px -3px 5px;
+	box-shadow: -3px -3px 5px;
 }
 
 .works {
-  margin: 1em .5em 3em;
-  padding: .2em;
-  color: rgba(127, 255, 212, 0.815);
+	margin: 1em 0.5em 3em;
+	padding: 0.2em;
+	color: var(--aquamarine);
 }
 
-.work-title, .work-place, .date {
-  margin-bottom: .5em;
+.work-title,
+.work-place,
+.date {
+	margin-bottom: 0.5em;
 }
 
 .work-title {
-  color: rgba(127, 255, 212, 0.925);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: var(--aquamarine);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .work-place {
-  font-style: italic;
+	font-style: italic;
 }
 
 .work-place > span {
-  font-style: normal;
+	font-style: normal;
 }
 
 .date {
-  font-family: 'Courier New', Courier, monospace;
+	font-family: "Courier New", Courier, monospace;
 }
 
-
 .description {
-  margin-top: 1.3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 14.5px;
-  word-spacing: 4px;
-  line-height: 1.5em;
+	margin-top: 1.3em;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 14.5px;
+	word-spacing: 4px;
+	line-height: 1.5em;
 }
 
 .weather {
-  color: rgb(130, 130, 221);
-  text-decoration: none;
+	color: rgb(130, 130, 221);
+	text-decoration: none;
 }
 
 .weather:active {
-  color: green;
+	color: green;
 }
 
 .weather:visited {
-  color: brown;
+	color: brown;
 }
 
 /* Small Screen */
 
-@media screen and (max-width:600px) {
-  .work-container {
-    margin-bottom: 2em;
-  }
+@media screen and (max-width: 600px) {
+	.work-container {
+		margin-bottom: 2em;
+	}
 
-  .description {
-    word-spacing: 2px;
-  }
+	.description {
+		word-spacing: 2px;
+	}
 }
-
