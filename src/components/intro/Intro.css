@@ -145,14 +145,12 @@
 	font-family: cursive;
 	font-style: italic;
 	margin: 1em 0 0 1em;
-	/* color: rgba(127, 255, 212, 0.655); */
 	color: var(--aquamarine);
 }
 
 .para-about {
 	margin: 1em 0 0;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	/* color: rgba(127, 255, 212, 0.733); */
 	color: var(--aquamarine);
 	font-size: 14.5px;
 	word-spacing: 5px;
