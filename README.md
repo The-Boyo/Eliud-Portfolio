@@ -4,5 +4,5 @@ This project is my portfolio site that illustrates my tech stack, skills, who I 
 
 ## Features 
 
-This app has a number of sections startin with the header, an introdction of who Eliud Metto is, his tech stack and skills and the projects he has worked on.
+This app has a number of sections namely the header, an introdction of who Eliud Metto is, his tech stack and skills and the projects he has worked on.
 
