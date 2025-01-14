@@ -43,7 +43,7 @@ const Work = () => {
 							weather app.{" "}
 						</a>{" "}
 						On top of this I have also worked on other projects- a budget app, a
-						portfolio site and a to-do app.
+						portfolio site, a rock-paper-scissors game and a to-do app.
 					</p>
 				</div>
 			</div>
