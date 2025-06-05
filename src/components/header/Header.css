@@ -27,8 +27,9 @@ header {
 
 .title {
 	margin-left: 1.5em;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+	font-family:
+		"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+		Arial, sans-serif;
 	font-style: italic;
 	text-decoration: line-through;
 }
@@ -58,6 +59,10 @@ header {
 	text-decoration: none;
 }
 
+.navlink:hover {
+	font-size: 1.4em;
+}
+
 .fa-bars,
 .fa-xmark {
 	align-self: center;
@@ -81,6 +86,10 @@ header {
 @media screen and (max-width: 787px) {
 	.navlink {
 		font-size: 0.8em;
+	}
+
+	.navlink:hover {
+		font-size: 1em;
 	}
 }
 
