@@ -13,6 +13,7 @@ body {
 	width: 100%;
 	min-width: min-content;
 	min-height: min-content;
+	/* position: relative; */
 }
 
 .back {
@@ -179,7 +180,8 @@ body {
 	text-shadow: -1px -1px 1px var(--eliud-shadow);
 	margin-left: 0.2em;
 	font-style: normal;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+	font-family:
+		"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 

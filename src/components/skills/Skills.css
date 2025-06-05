@@ -10,19 +10,42 @@
 .skills-title {
 	justify-self: center;
 	margin-bottom: 0.5em;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+	font-family:
+		"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+		Arial, sans-serif;
 }
 
 .skills-cont {
 	padding: 0.5em;
-	display: flex;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 3fr));
+	grid-gap: 1em;
 	border-radius: 0.5em;
 }
 
 .skills-cont:hover {
 	box-shadow: -1px -1px 2px;
+}
+
+.skills-cont > div {
+	display: grid;
+	place-items: center;
+	font-family:
+		"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+		Arial, sans-serif;
+}
+
+.skills-cont > div:hover {
+	animation: changeFont 3s infinite linear;
+}
+
+@keyframes changeFont {
+	0% {
+		font-size: 0.3em;
+	}
+	100% {
+		font-size: 1em;
+	}
 }
 
 img {
