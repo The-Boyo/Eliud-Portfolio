@@ -17,11 +17,11 @@ const Work = () => {
 					<p className="date">&#128348; February 2020- March 2024</p>
 					<p className="description">
 						Tisini is a Kenyan Media-tech and data company that uses numbers to
-						change the lives of Africans. Here, I took part in developing a data
+						tell the African story. Here, I took part in developing a data
 						collecting app that has been tailored to collect football and rugby
 						statistics. Using HTML, CSS Javascript and React. I also developed
 						the UI for the livescore part of the app that is hosted on GitHub. I
-						lay the dynamism and brought life to the static interface my
+						laid the dynamism and brought life to the static user interface my
 						colleague had put up.
 					</p>
 				</div>
