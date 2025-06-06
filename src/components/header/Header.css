@@ -54,7 +54,8 @@ header {
 .navlink {
 	margin: 1em;
 	font-size: 1.2em;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	/* font-family: Georgia, "Times New Roman", Times, serif; */
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	color: var(--antiquewhite);
 	text-decoration: none;
 }
