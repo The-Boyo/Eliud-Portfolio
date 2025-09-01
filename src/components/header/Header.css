@@ -9,7 +9,8 @@ header {
 	align-items: center;
 	z-index: 1;
 	color: var(--antiquewhite);
-	background: var(--body-background);
+	background: var(--transparent-body-background);
+	backdrop-filter: blur(10px);
 	animation: header 1.5s 1;
 }
 
@@ -54,7 +55,6 @@ header {
 .navlink {
 	margin: 1em;
 	font-size: 1.2em;
-	/* font-family: Georgia, "Times New Roman", Times, serif; */
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	color: var(--antiquewhite);
 	text-decoration: none;
