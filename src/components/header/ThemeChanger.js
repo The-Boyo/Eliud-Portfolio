@@ -1,4 +1,3 @@
-import React from "react";
 import Context from "../store/ThemeStore";
 
 const ThemeChanger = () => {

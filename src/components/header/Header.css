@@ -5,12 +5,11 @@ header {
 	width: 100%;
 	min-width: min-content;
 	display: grid;
-	grid-template-columns: 2.5fr 4fr 0.5fr;
+	grid-template-columns: 1fr 4fr 0.5fr;
 	align-items: center;
 	z-index: 1;
 	color: var(--antiquewhite);
-	background: var(--transparent-body-background);
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(20px);
 	animation: header 1.5s 1;
 }
 
@@ -43,9 +42,8 @@ header {
 .navbar {
 	display: flex;
 	align-content: center;
-	justify-content: flex-end;
-	grid-column: 2;
-	margin-right: 2em;
+	justify-content: center;
+	column-gap: 1em;
 }
 
 .navbar > li {
@@ -61,7 +59,7 @@ header {
 }
 
 .navlink:hover {
-	font-size: 1.4em;
+	text-decoration: underline;
 }
 
 .fa-bars,
