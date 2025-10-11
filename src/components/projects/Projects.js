@@ -55,21 +55,27 @@ const Projects = () => {
 				</div>
 				<div className="projo budget">
 					<div className="projo-photo budget">
-						<img src={require("./budget.PNG")} alt="budget app" />
+						<img src={require("./gikosh-app.png")} alt="Gikosh-app" />
 					</div>
-					<h4 className="projo-name">Budget App</h4>
+					<h4 className="projo-name">Gikosh E-Commerce App</h4>
 					<p className="projo-skills">
-						Skills: HTML, CSS, Javascript, React, Redux
+						Skills: HTML, CSS, Javascript, Typescript, React, Next.js, Redux
+						Toolkit, Context API
 					</p>
 					<p className="projo-des">
-						A fairly simple budget app made with React and incorporates Redux
-						for state management. The complexity comes in with state management
-						and how user data is shipped from one component to another and also
-						how the data is utilised by different components.
+						An e-commerce website built with Typescript and Next js and
+						incorporates Redux Toolkit and Context Api for state management. The
+						app has different pages built with Next's file based routing system
+						and navigates the user all the way from viewing a product to
+						purchasing it and making payments.
 					</p>
-					{/* <a href="#" target="blank" className="linking budget_link">
+					<a
+						href="https://gikosh-nine.vercel.app"
+						target="blank"
+						className="linking budget_link"
+					>
 						<button className="btn-check">View</button>
-					</a> */}
+					</a>
 				</div>
 				<div className="projo porfolio-site">
 					<div className="projo-photo portfolio-site">
