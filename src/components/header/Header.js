@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import "./Header.css";
 import ThemeChanger from "./ThemeChanger";
@@ -6,7 +6,7 @@ import ThemeChanger from "./ThemeChanger";
 const Header = ({ width }) => {
 	const [button, setButton] = useState(true);
 
-  const navRef = useRef();
+	const navRef = useRef();
 
 	const displayNav = (e) => {
 		if (e.target.className === "fa-solid fa-bars") {
@@ -19,9 +19,7 @@ const Header = ({ width }) => {
 			setButton(true);
 			navRef.current.style.display = "none";
 			if (width > 600) {
-				setTimeout(() => {
-					navRef.current.style.display = "flex";
-				}, 0.001);
+				navRef.current.style.display = "flex";
 			}
 		}
 	};

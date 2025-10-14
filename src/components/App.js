@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import Header from "./header/Header";
 import "./App.css";
@@ -10,17 +10,23 @@ import { ThemeStore } from "./store/ThemeStore";
 import RingsBackground from "./RingsBackground";
 
 const App = () => {
-	const [allHeight, setAll] = useState(null);
+	const [allHeight, setAll] = useState(0);
 
 	const allRef = useRef();
 
 	useEffect(() => {
 		const handleResize = () => {
-			setAll(allRef.current.parentElement.parentElement.offsetWidth);
+			setAll(document.body.offsetWidth);
 		};
 
+		handleResize();
+
 		window.addEventListener("resize", handleResize);
-	}, [allHeight]);
+
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
+	console.log(allHeight);
 
 	return (
 		<ThemeStore>
